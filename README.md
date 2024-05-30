@@ -1,5 +1,4 @@
-markdown
-Copy code
+
 # Sparse Matrix Operations
 
 This project provides a Python implementation for performing operations on sparse matrices. It supports addition, subtraction, and multiplication of sparse matrices, and reading from and writing to files.
@@ -21,7 +20,7 @@ cols=<number_of_columns>
 ...
 
 makefile
-Copy code
+
 
 Example:
 rows=3
@@ -68,12 +67,11 @@ cols=2
 Run the script:
 
 sh
-Copy code
 python Matrix.py multiply
 Output:
 The result will be written to the output file, e.g., sample_results_multiply.txt.
 
-Code Overview
+##Code Overview
 SparseMatrix Class
 __init__(self, rows=0, cols=0): Initializes a sparse matrix.
 from_file(file_path): Creates a sparse matrix from a file.
@@ -83,24 +81,20 @@ add(self, other): Adds two sparse matrices.
 subtract(self, other): Subtracts one sparse matrix from another.
 multiply(self, other): Multiplies two sparse matrices.
 to_file(self, file_path): Writes the sparse matrix to a file.
-Main Function
+##Main Function
 main(): Handles command-line arguments and performs the specified matrix operation.
-Debugging
+##Debugging
 Debug statements are included to print matrix dimensions and data before performing operations.
 
-Directories
+##Directories
 Input Directory: C:\Users\HP\Desktop\Matrix\Sparse-Matrix\sample_inputs
 Output Directory: C:\Users\HP\Desktop\Matrix\Sparse-Matrix\sample_results
-Dependencies
+##Dependencies
 Python 3.x
-License
-This project is licensed under the MIT License.
+##Contact
+For any questions or issues, please contact [k.thiak@alustudent.com].
 
-Contact
-For any questions or issues, please contact [your-email@example.com].
-
-typescript
-Copy code
+##typescript
 
 This `README.md` file provides an overview of the project, instructions for usage, and details about the implementation. Adjust the paths, email, and any other specific details as necessary.
 
